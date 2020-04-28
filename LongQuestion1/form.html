@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=form.css>
+    <title>Vanue Approval Form</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <form name="form" method="get" action="">
+<div>
+    <div class="logo"><img src="Logosuc.gif" alt="Logosuc"></div>
+    <p><h1>借用场地申请表格<br>Venue Approval Form</h1></p>
+</div>
+<br>
+<p><strong><span class="mention">*</span>需注意事项(<span class="mention">*</span>Matters needing attention)</strong> <br>
+    <span class="mention">*</span>诺有特殊情况，本处将保留最终决定权 <br>
+    <span class="mention">*</span>The Asset Management & General Affairs Office <br> <span>-</span> reserves the right to change or reuse any booking. 
+</p>
+<br>
+<div class="border">
+    <h2 class="title">1.需租借的场地(Venue to be rented)</h2>
+    <ol type="A">
+        
+        <li>借用场地:<br>Venue to be approved:</li>
+<table>
+    <tr>
+        <td>
+            <input type="radio" value="大讲堂 (Main Auditorium)" name="box">大讲堂 (Main Auditorium)
+        </td>
+        <td>
+            <input type="radio" value="讲堂A (Auditorium A)" name="box">讲堂A (Auditorium A)
+        </td>
+        <td>
+            <input type="radio" value="讲堂B (Auditorium B)" name="box">讲堂B (Auditorium B)
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <input type="radio" value="会议室125 (Meeting Room 125)" name="box">会议室125 (Meeting Room 125)
+        </td>
+        <td>
+            <input type="radio" value="《南方之星》舞台 (LG Stage)" name="box">《南方之星》舞台 (LG Stage)
+        </td>
+        <td>
+            <input type="radio" value="华园 (Hua Yuan)" name="box">华园 (Hua Yuan)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="box" value="冷气课室 (Lecture Halls) ">冷气课室 (Lecture Halls) 
+            <select name="classroom" selected="selected">
+                <option value="" name="class">none</option>
+                <option value="(2C)" name="class">2C</option>
+                <option value="(2D)" name="class">2D</option>
+                <option value="(2E)" name="class">2E</option>
+                <option value="(2F)" name="class">2F</option>
+                <option value="(2G)" name="class">2G</option>
+                <option value="(2H)" name="class">2H</option>
+                <option value="(3E)" name="class">3E</option>
+                <option value="(3F)" name="class">3F</option>
+            </select>
+        </td>
+
+
+
+    </tr>
+</table>
+</div>
+        <hr class="line">
+</ol>
+<div class="border2">
+    <h2 class="title">2.申请人资料(Applicant Information)</h2>
+
+    <ol type="A">
+        <li>
+            申请人姓名：<br>Applicant's Name: <input class="bordernone" type="text" name="name" size="30" maxlength="20">
+        </li> 
+        <li>
+            手机号码：<br>Phone Number<span>----</span>: <input class="bordernone" name="phone" type="tel" size="30" maxlength="12">
+        </li> 
+        <li>
+            申请人科系：<br>Applicant's course: <input class="bordernone" name="course" type="text" size="30" maxlength="20">
+        </li> 
+        
+    </ol>
+</div>
+
+<hr class="line">
+
+<div class="border2">
+    <h2 class="title">3.活动详情(Details of the event)</h2>
+    <ol type="A">
+        <li>
+            活动名称：<br>Event<span>------</span>: <input class="bordernone" name="event" type="text" size="30" maxlength="10">
+        </li> 
+        <li>
+            活动日期：<br>Event Date: <input class="bordernone" name="date" type="date" size="30">
+        </li> 
+        <li>
+            活动时间：<br>Event Time: <input class="bordernone" name="time" type="time" size="30">
+        </li> 
+        <li>
+            参与人数：<br>The number of participants: <input name="number" class="bordernone" type="tel" size="30" minlength="1" maxlength="3">
+        </li> 
+    </ol>
+</div>
+
+        <input class="button" type="reset" value="Reset">
+        <input class="button" type="button" value="Submit" onclick="display();"/>
+    </form>
+</body>
+</html>

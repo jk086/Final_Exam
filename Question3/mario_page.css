@@ -1,0 +1,39 @@
+body
+{
+    color: white;
+}
+
+table
+{
+    margin: auto;
+    background-color: navy;
+    border: 10px solid red;
+    border-collapse: collapse;
+}
+
+.table2
+{
+    border: 2px solid white;
+    margin: auto;
+    width: 100%;
+}
+
+th, td
+{
+    border: 2px solid red;
+}
+
+.table th, .table2 td
+{
+    border: 2px solid white;
+}
+
+.table2 button
+{
+    width: 100%;    
+}
+
+.player
+{
+    text-align: center;
+}

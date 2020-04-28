@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="LED.css">
+    <title>~Wish List~</title>
+    <script src="wishlist.js"></script>
+</head>
+<body>
+
+<ul class="lightrope">
+    <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+</ul>
+<br>
+
+<h1 class="tittle">~Santa Claus gives gifts~</h1>
+
+<p><img class="arrow1" src="arrow1.png" alt=""><img class="arrow2" src="arrow2.png" alt=""><img src="SantaClaus.jpg" class="santa" alt="" onclick="openForm()"><img class="arrow1" src="arrow.png" alt=""><img class="arrow2" src="arrow3.png" alt=""><br><h3 class="open">Click Me to open your wishlist</h3></p>
+
+<div class="intro1">
+    <p><H2 class="intro">Introduce to SantaClaus</H2></p>
+    <p class="intro2">
+        Santa Claus, also known as Father Christmas, Saint Nicholas, Saint Nick, Kris Kringle, or simply Santa, 
+        is an imaginary figure originating in Western Christian culture who is said to bring gifts to the homes of
+        well-behaved children on the night of Christmas Eve (24 December) or during the early morning hours of 
+        Christmas Day (25 December).The modern Santa Claus grew out of traditions surrounding the historical 
+        Saint Nicholas (a fourth-century Greek bishop and gift-giver of Myra), the British figure of Father Christmas
+        , and the Dutch figure of Sinterklaas (himself also based on Saint Nicholas). Some maintain Santa Claus also 
+        absorbed elements of the Germanic god Wodan, who was associated with the pagan midwinter event of Yule and led 
+        the Wild Hunt, a ghostly procession through the sky. 
+    </p>
+</div>
+<br class="space">
+
+
+<div class="popup-form" id="form">
+    <form class="form-container" name="form1" method="post" action="mailto:jiakang0216@gmail.com" enctype="text/plain" onsubmit="return validate();">
+    <h1 class="formtittle">Your wishlist</h1>
+
+<label for="name"><b>Name</b></label>
+<input type="text" placeholder="Enter Your Name" name="name" id="name" required>
+
+<label for="age"><b>Age</b></label>
+<input type="number" placeholder="Enter Your Age" name="age" id="age" required>
+
+<label for="gender"><b>Your gender:</b></label>
+<select name="gender" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+
+<label for="Country"><b>Wish your Wish</b></label>
+<input type="text" placeholder="What is your wish" name="country" id="country" required>
+
+<label for="Address"><b>Address (To let Santa send the gifts)</b></label>
+<input type="text" placeholder="Enter Adress" name="address" id="address" required >
+
+<label for="love"><b>Do you love Santa Claus??</b></label>
+<input type="radio" placeholder="Yes" name="love">Yes
+<input type="radio" placeholder="No" name="love">No
+
+<div class="abc">
+<button type="sumbit" class="button sumbit" onclick="showresult()" value="sumbit">Send</button></div>
+<button type="button" class="button Back" onclick="closeForm()">Close</button>
+<button type="reset"  class="button Reset">Reset</button>
+<br class="space2">
+</form>
+
+</div>
+
+
+
+<footer>
+    <div class="deer1">
+        <img src="deer1.png" alt="deer">
+        <img src="deer1.png" alt="deer">
+        <img src="deer1.png" alt="deer">
+        <img src="deer1.png" alt="deer">
+    </div>
+    <div class="deer2">
+        <img src="deer2.png" alt="deer">
+        <img src="deer2.png" alt="deer">
+        <img src="deer2.png" alt="deer">
+        <img src="deer2.png" alt="deer">
+    </div>
+    
+</footer>
+</body>
+</html>

@@ -1,0 +1,192 @@
+body
+{
+    background: #f5624d;
+    margin: 0;
+}
+
+h1.tittle
+{
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+
+br.space
+{
+    margin-bottom: 10%;
+}
+div.intro1
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2.intro
+{
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+
+h3.open
+{
+    display: flex;
+    margin: auto;
+    margin-top: -2%;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+
+div.deer1
+{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 33.33333333333333%;
+    left: 0;
+}
+
+div.deer2
+{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 33.33333333333333%;
+    right: 0;
+}
+
+img.santa
+{
+    display: flex;
+    border-radius: 50%;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.popup-form
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 33.33333333333333%;
+    z-index: 9;
+}
+
+.form-container input[type=text], .form-container input[type=number], .form-container select
+{
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container 
+{
+    max-width: 40%;
+    padding: 5%;
+    background-color: white;
+}
+
+.formtittle
+{
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-container .sumbit
+{
+	background-color: green;
+	margin-left: 2%;
+}
+
+.form-container .Back
+{
+	background-color: red;
+	margin-left: 2%;
+}
+.form-container .Reset
+{
+	background-color: grey;
+	margin-left: 2%;
+}
+.form-container .button
+{
+    border-radius: 5%;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom: 5%;  
+    opacity: 0.8;
+    float: left;
+    margin-top: 2%;
+
+}
+
+.form-container .button:hover
+{
+	opacity: 1;
+}
+
+img.arrow2
+{
+    margin-left: 26%;
+}
+
+img.arrow1
+{
+    margin-left: 26%;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    .popup-form
+    {
+        display: none;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    .form-container 
+    {
+        max-width: 100%;
+        padding: 5%;
+        background-color: white;
+    }
+    
+    br.space2
+    {
+        margin-bottom: 1em;
+    }
+
+    h2.intro
+    {
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    p.intro2
+    {
+        text-align: center;
+        color: #f1f1f1;
+    }
+    
+    img.arrow2
+    {
+        margin-left: 0;
+
+    }
+    
+    img.arrow1
+    {
+        margin-right: 0;
+        float: right;
+    }
+}
+

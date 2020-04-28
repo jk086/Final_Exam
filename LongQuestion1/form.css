@@ -1,0 +1,83 @@
+body
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.logo img
+{
+    height: 10em;
+    float: left;
+}
+
+h1
+{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+hr.line
+{
+    border: 3px dotted black;
+
+    margin-top: 3%;
+}
+
+.bordernone
+{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+
+div.border
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+div.border2
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 3%;
+    
+}
+
+.title
+{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: center;
+}
+
+span
+{
+    color: white;
+}
+
+span.mention
+{
+    color: red;
+}
+
+.button
+{
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    margin-left: 3px;
+    float: right;
+    margin-bottom: 1em;
+}
+
+

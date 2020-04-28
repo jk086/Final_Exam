@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pizza_shop.css">
+    <title>Pizza Shop 2.0</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="3">Pizza Shop 2.0</th>
+        </tr>
+
+        <tr>
+            <td colspan="1">Name</td>
+            <td colspan="2"><input type="text" name="name" size="30"></td>
+        </tr>
+        
+        <tr>
+            <td colspan="1">Pizza Topping</td>
+            <td colspan="2"><input type="radio" name="topping" value="Supreme">Supreme <br>
+            <input type="radio" name="topping" value="vegetarion">vegetarion <br>
+            <input type="radio" name="topping" value="Hawaiian">Hawaiian</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">Pizza Sauce</td>
+            <td colspan="2"><select name="Select sauce" size="1" selected="selected">
+                <option value="Tomato">Tomato sauce</option>
+                <option value="BBQ">BBQ sauce</option>
+                <option value="Chili">Chili sauce</option>
+                <option value="Honey Mustard">Honey Mustard</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td>Optional Extras</td>
+            <td class="checkbox"><input type="checkbox" value="Extra Cheese">Extra Cheese<input type="checkbox" value="Gluten Free Base">Gluten Free Base</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Delivery Instruction: <br>
+                <textarea rows="1" cols="20" name="comment"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><button type="submit" class="button">Send My Order</button></td>
+        </tr>
+    </table>
+</body>
+</html>
